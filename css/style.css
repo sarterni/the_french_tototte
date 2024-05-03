@@ -10,6 +10,10 @@ body {
     padding: 35px 240px 35px 232px;
     align-items: center;
     gap: 1000px;
+    margin-right: 20px; 
+}
+
+.french-tottote img {
 }
 
 button.cta-buy {
