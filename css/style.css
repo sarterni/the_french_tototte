@@ -1,3 +1,9 @@
+body {
+    width: 1920px;
+    height: 1200px;
+    flex-shrink: 0;
+}
+
 .french-tottote {
     display: inline-flex;
     padding: 35px 240px 35px 232px;
@@ -13,5 +19,5 @@ button.cta-buy {
     align-items: center;
     gap: 8px;
     background-color: #5D4043;
-    mix-blend-mode: multiply;
+
 }
