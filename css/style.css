@@ -1,0 +1,17 @@
+.french-tottote {
+    display: inline-flex;
+    padding: 35px 240px 35px 232px;
+    align-items: center;
+    gap: 1289px;
+}
+
+button.cta-buy {
+    display: flex;
+    height: 40px;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: #5D4043;
+    mix-blend-mode: multiply;
+}
