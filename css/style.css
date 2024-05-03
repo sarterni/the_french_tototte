@@ -1,14 +1,15 @@
 body {
     width: 1920px;
-    height: 1200px;
+    height: 1080px;
     flex-shrink: 0;
+    overflow: hidden;
 }
 
 .french-tottote {
     display: inline-flex;
     padding: 35px 240px 35px 232px;
     align-items: center;
-    gap: 1289px;
+    gap: 1000px;
 }
 
 button.cta-buy {
@@ -19,5 +20,24 @@ button.cta-buy {
     align-items: center;
     gap: 8px;
     background-color: #5D4043;
+    color: #FFFFFF;
 
+}
+
+.text-no1 {
+    display: flex;
+    width: 661px;
+    height: 143px;
+    align-items: center;
+    gap: 9.79px;
+    flex-shrink: 0;
+}
+
+.text-no1 p {
+    font-family: 'Tartuffo', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #5D4043;
 }
