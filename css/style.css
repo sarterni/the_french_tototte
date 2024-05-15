@@ -2,18 +2,16 @@ body {
     width: 1920px;
     height: 1080px;
     flex-shrink: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .french-tottote {
     display: inline-flex;
-    padding: 35px 240px 35px 10px; /* Change 232px to 100px */
+    padding: 35px 240px 35px 10px;
+    /* Change 232px to 100px */
     align-items: center;
     gap: 1000px;
-    margin-right: 20px; 
-}
-
-.french-tottote img {
+    margin-right: 20px;
 }
 
 button.cta-buy {
@@ -44,7 +42,8 @@ button.cta-buy {
     height: 143px;
     align-items: center;
     gap: 9.79px;
-    position: relative; /* Add this line */
+    position: relative;
+    /* Add this line */
 }
 
 .my-video {
@@ -52,3 +51,17 @@ button.cta-buy {
     top: 300px;
     left: 0;
 }
+
+.no2 {
+    width: 1920px;
+    height: 1142px;
+    flex-shrink: 0;
+    margin-top: 300px;
+}
+
+.bento1 {
+    border-radius: 8px;
+    background-color: #000000;
+
+}
+/* Add this line */
